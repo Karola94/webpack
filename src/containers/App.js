@@ -1,6 +1,7 @@
 import React from 'react';
 import uuid from 'uuid';
 import style from './App.css';
+import Title from '../components/Title';
 
 class App extends React.Component {
     constructor(props){
@@ -8,7 +9,7 @@ class App extends React.Component {
         this.state = {
             data: []
         };
-    }
+    }   
     addTodo(val){
         const todo = {
             text: val,
@@ -23,8 +24,10 @@ class App extends React.Component {
     }
 
     render() {
-        return (
-            <div className={style.TodoApp}></div>
+        return (                   
+            <div className={style.TodoApp}>
+                <Title listLength={this.state.data.length}/>
+            </div>                    
         );
     }
 }
