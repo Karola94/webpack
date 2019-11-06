@@ -33,8 +33,7 @@
     "express": "^4.17.1",
     "express-formidable": "^1.2.0",
     "mkdirp": "^0.5.1",
-    "normalize.css": "^8.0.1",
-    "superagent": ">=3.7.0"
+    "normalize.css": "^8.0.1"    
   },
   "repository": {
     "type": "git",
