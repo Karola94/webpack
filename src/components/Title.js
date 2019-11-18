@@ -7,7 +7,7 @@ class Title extends React.Component {
         const {listLength} = this.props;
         return (
             <div className={style.Title}>
-                <div>Todo's list <span class="badge badge-warning">{listLength}</span></div>                
+                <div>Todo's list <span className="badge badge-warning">{listLength}</span></div>                
             </div>
         );
     }
