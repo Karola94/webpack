@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --env development",
+    "start": "webpack-dev-server --env development",
     "build": "webpack --env production"
   },
   "keywords": [],
@@ -29,7 +29,8 @@
     "react-dom": "^16.11.0",
     "style-loader": "^1.0.0",
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
   },
   "dependencies": {
     "@babel/core": "^7.6.4",
