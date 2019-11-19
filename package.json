@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --env development",
+    "start": "webpack-dev-server --hot --env development",
     "build": "webpack --env production"
   },
   "keywords": [],
@@ -27,6 +27,7 @@
     "onchange": "^6.0.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
+    "react-hot-loader": "^4.12.18",
     "style-loader": "^1.0.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
