@@ -1,0 +1,24 @@
+.TodoList {  
+    font-size: 20px; 
+    list-style-type: decimal;   
+    padding-left: 5px;   
+    border-radius: 5px;
+}
+.usun {
+    border: 1px solid red;
+    border-radius: 3px;
+    font-size: 10px;
+    margin: 6px 10px 0 10px;
+    font-weight: bold;
+    padding: 1px 3px;
+    float: right;
+    
+}
+.usun:hover {
+    cursor: pointer;
+    background: red;
+    color: white;
+}
+.TodoList:hover {
+    background: #edebeb;
+}
